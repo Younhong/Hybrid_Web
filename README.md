@@ -7,7 +7,7 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
 * NodeJS
 * WordPress, Wix.com
 * OpenAPI(omdbapi, Handong Service menu)
-
+* Docker, mySQL(for setting WordPress)
 
 # Server
 AWS(Amazon Web service)
