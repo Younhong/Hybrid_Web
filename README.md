@@ -2,11 +2,11 @@
 Website oiriginally designed for the asssignment of Hybrid Web Course, but I have expanded the function and the design of the website using the techniques I learned from Web Service Development.
 
 # Techniques used
-> Basic skills on HTML, CSS and Javascript
-> JQuery
-> NodeJS
-> WordPress, Wix.com
-> OpenAPI(omdbapi, Handong Service menu)
+* Basic skills on HTML, CSS and Javascript
+* JQuery
+* NodeJS
+* WordPress, Wix.com
+* OpenAPI(omdbapi, Handong Service menu)
 
 
 # Server
