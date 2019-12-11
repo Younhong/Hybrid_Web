@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+body {
+	background-color: bisque;
+	font-size: 1em;
+	color: #333;
+	font-family: "Times";
+}
+header, article, footer, main, summary {
+	border: 1px solid blue;
+	margin:5px;
+	padding:5px;
+}
+header {
+	height: 80px;
+	background-color: lightgray;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: gray;
+} 
+nav ul li {
+	float: left;
+	border-right:1px solid red;
+} 
+nav ul li:last-child {
+	border-right: none;
+} 
+nav ul li a {
+	display: block; 
+	color: slateblue;
+	font-weight:bold;
+	text-align: center;
+	padding: 14px 16px;
+} 
+nav ul li a:hover {
+	background-color: yellow;
+}
+ul {
+	list-style:none; 
+}
+main {
+	float:left;
+	width:20%;
+	height:540px;
+}
+main ul li a {
+	color: saddlebrown;
+}
+span {
+	text-shadow: 1px 1px 2px red;
+}
+aside {
+	color: green;
+	padding-left: 5px;
+	width:90%;
+	height:300px; 
+	border:1px solid orange;
+	text-align: justify;
+}
+aside:hover {
+	font-weight: bold;
+	width: 100%;
+	color: lightsalmon;
+	text-align: justify;
+}
+article {
+	clear:none; 
+	float:left;
+	width:60%;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	height: 590px;
+}
+hgroup {
+	border-bottom: 2px solid #F90;
+	color: lightpink;
+}
+section {
+	width:90%;
+	height:65px;
+	padding:5px;
+	background-color: lightyellow;
+	clear:both;
+	color: orange;
+}
+mark {
+	font-weight: bold;
+}
+mark:hover{
+	color: blue;
+	background-color: tomato;
+}
+.feature {
+	font-size: 20px;
+}
+figure {
+	float:right;
+	margin:2px;	
+}
+img {
+	border:1px solid green;  
+	box-shadow:blue 4px 4px 2px;
+}
+img.fox{
+	transform: translate(70px);
+}
+img.wolf{
+	transform: translate(-70px);
+}
+img.fox:hover{
+	transform: rotate(45deg);
+}
+img.wolf:hover{	
+	transform: rotate(-45deg);
+}
+figcaption {
+	text-align:center;
+	color: red;
+	text-shadow: 3px 3px 2px green;
+	font-size: 20px;
+}
+.db {
+	color: green;
+}
+div{
+	color: mediumslateblue;
+	height: 20px;
+}
+summary {
+	display: block;
+	width:13%;
+	height:540px;	 
+	float:left; 
+	position:relative; 
+	font-weight: bold;
+	animation: mymove 5s infinite;
+	animation-direction: alternate;
+	text-align: justify;
+}
+@keyframes mymove {
+	0% {left: 0px; top: 0px; background-color: bisque; color: green;}
+	25% {left: 65px; top: 0px; background-color: lightyellow; color: blue;}
+	50% {left: 65px; top: 45px; background-color: salmon; color: white;}
+	75% {left: 0px; top: 45px; background-color: lightsalmon; color: yellow;}
+	100% {left: 0px; top: 0px; background-color: bisque; color: green;}
+}
+footer {
+	clear:both;
+	height:260px;
+	width: 99%;
+	background-color: lightGray;
+	font-weight: bold;
+	text-align: center;
+	color: salmon;
+}
+a {
+	text-decoration: none;
+}
+footer a{
+	color: darkblue;
+}
