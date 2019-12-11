@@ -1,13 +1,20 @@
 var http = require('http');
 var express = require('express');
 var app = express();
-
-app.get("/", function(req, rep) {
-    rep.end("Hello world! GET: " + req.url);
-});
+var router = require('./router.js');
+var booksRouter = require('./books.js');
 
 app.get("/public/:a", function (req, rep) {
     rep.sendFile("/var/www/html/node/"+req.params.a);
+});
+
+app.use(express.json());
+app.use(express.static('public'));
+app.use('/router', router);
+app.use('/books', booksRouter);
+
+app.get("/", function(req, rep) {
+    rep.end("Hello world! GET: " + req.url);
 });
 
 app.get("/plus/:a/:b", function (req, rep) {
