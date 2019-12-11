@@ -2,7 +2,7 @@
 Website oiriginally designed for the asssignment of Hybrid Web Course, but I have expanded the function and the design of the website using the techniques I learned from Web Service Development.
 
 # Techniques used
-* Basic skills on using HTML, CSS, PHP, mySQL and Javascript
+* Basic skills on using XML, HTML, CSS, PHP, mySQL and Javascript
 * JQuery
 * NodeJS
 * Bootstrap
