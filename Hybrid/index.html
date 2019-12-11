@@ -35,43 +35,126 @@
 			ul {
 				list-style-type: square;
 			}
+			header {
+				height: 80px;
+				background-color: lightgray;
+			}
+			div.menu, div.menu2, div.menu3, div.menu4 {
+				float:left;
+				font-weight: bold;
+                color: blue;
+                border: 2px solid black;
+             	text-align: center;
+             	width: 20em;
+			}
+         	div.menu:hover a, div.menu2:hover a, div.menu3:hover a, div.menu4:hover a {
+				display: block;
+			}
+         	div.menu a, div.menu2 a, div.menu3 a, div.menu4 a {
+				display: none;
+                border-top: 2px solid red;
+                background-color: pink;
+                width: 20em;
+                text-decoration: none;
+                color: black;
+			}
+         	div.menu a:hover, div.menu2 a:hover, div.menu3 a:hover, div.menu4 a:hover  { background-color: yellow; }
+			main {
+				margin-top: 120px;
+			}
+			footer {
+				clear:both;
+				height:260px;
+				width: 99%;
+				background-color: lightGray;
+				font-weight: bold;
+				text-align: center;
+				color: salmon;
+			}
+			a {
+				text-decoration: none;
+			}
+			footer a{
+				color: darkblue;
+			}
+			div {background-color: orange;}
+			.active {background-color: darkorange;}
+			div:hover:not(.active) {background-color: white;}
 		</style>
 	</head>
 	<body>
-		<span>한동대학교 14학번 고윤홍입니다. <br>
-		하이브리드웹 과제는 아래 링크를 참조 바랍니다. </span>
-		<br>
-		<ol class = "title" type='I'>
-			<li class="assignment">하이브리드웹 첫번째 과제</li>
-			<ul>
-				<li><a href = "/src/intro.html"> 자기소개 페이지 </a><br></li>
-				<li><a href = "/src/iframe.html"> Iframe </a><br></li>
-				<li><a href = "/src/image_map.html"> Image Map </a><br></li>
-				<li><a href = "/src/form.html"> 설문조사 페이지 </a><br></li>
-			</ul>
+		<header>
+			<span>한동대학교 14학번 고윤홍입니다. <br>
+			하이브리드웹 과제는 아래 링크를 참조 바랍니다. </span>
 			<br>
-			<li class="assignment">하이브리드웹 두번째 과제</li>
-			<ul>
-				<li><a href="/src/layer.html">Layer 적용하기</a></li>
-				<li><a href="/src/bootstrap.html">Bootstrap</a></li>
-				<li><a href="http://54.180.91.79:8080">WordPress</a></li>
-				<li><a href="/src/clock.html">전자시계 만들기</a></li>
-				<li><a href="/src/grade.html">성적 계산</a></li>
-			</ul>
-			<br>
-			<li class="assignment">하이브리드웹 세번째 과제</li>
-			<ul>
-				<li><a href="/src/jquery.html">jQuery</a></li>
-				<li><a href="/src/openAPI.html">OPEN API</a></li>
-				<li><a href="http://54.180.91.79:3000/public/calc.html">사칙연산 API</a></li>
-				<li><a href="http://54.180.91.79:3000/public/counter.html">서버시간과 카운트 적용</a></li>
-				<li><a href="http://54.180.91.79:3000/public/chat.html">채팅 적용</a></li>
-			</ul>
-                        <br>
-                        <li class="assignment">과제 X</li>
-                        <ul>
-                                <li><a href="https://21400022.wixsite.com/younhong">Wix.com</a></li>
-                        </ul>
-		</ol>
+			<div class = "menu active">과제1
+				<a href="/src/intro.html">자기소개</a>
+				<a href="/src/iframe.html">iframe</a>
+				<a href="/src/image_map.html">이미지 맵</a>
+				<a href="/src/form.html">설문조사</a>
+			 </div>
+			 <div class = "menu2">과제2
+				<a href="/src/layer.html">Layer</a>
+				<a href="/src/bootstrap.html">Bootstrap</a>
+				<a href="http://54.180.91.79:8080">WordPress</a>
+				<a href="/src/clock.html">전자시계</a>
+				<a href="/src/grade.html">Grade</a>
+			</div>
+			<div class="menu3">과제3
+				<a href="/src/jquery.html">jQuery</a>
+				<a href="/src/openAPI.html">OPEN API</a>
+				<a href="http://54.180.91.79:3000/public/calc.html">사칙연산 API</a>
+				<a href="http://54.180.91.79:3000/public/counter.html">ServerTime Count</a>
+				<a href="http://54.180.91.79:3000/public/chat.html">Chatting</a>
+			</div>
+			<div class="menu4">과제X
+                <a href="https://21400022.wixsite.com/younhong">Wix.com</a>
+			</div>
+		</header>
+		<main>
+			<ol class = "title" type='I'>
+				<li class="assignment">하이브리드웹 첫번째 과제</li>
+				<ul>
+					<li><a href = "/src/intro.html"> 자기소개 페이지 </a><br></li>
+					<li><a href = "/src/iframe.html"> Iframe </a><br></li>
+					<li><a href = "/src/image_map.html"> Image Map </a><br></li>
+					<li><a href = "/src/form.html"> 설문조사 페이지 </a><br></li>
+				</ul>
+				<br>
+				<li class="assignment">하이브리드웹 두번째 과제</li>
+				<ul>
+					<li><a href="/src/layer.html">Layer 적용하기</a></li>
+					<li><a href="/src/bootstrap.html">Bootstrap</a></li>
+					<li><a href="http://54.180.91.79:8080">WordPress</a></li>
+					<li><a href="/src/clock.html">전자시계 만들기</a></li>
+					<li><a href="/src/grade.html">성적 계산</a></li>
+				</ul>
+				<br>
+				<li class="assignment">하이브리드웹 세번째 과제</li>
+				<ul>
+					<li><a href="/src/jquery.html">jQuery</a></li>
+					<li><a href="/src/openAPI.html">OPEN API</a></li>
+					<li><a href="http://54.180.91.79:3000/public/calc.html">사칙연산 API</a></li>
+					<li><a href="http://54.180.91.79:3000/public/counter.html">서버시간과 카운트 적용</a></li>
+					<li><a href="http://54.180.91.79:3000/public/chat.html">채팅 적용</a></li>
+				</ul>
+                        			<br>
+                        			<li class="assignment">과제 X</li>
+                        			<ul>
+                             				<li><a href="https://21400022.wixsite.com/younhong">Wix.com</a></li>
+                        			</ul>
+			</ol>
+		</main>
+		<footer>
+				<p>Copyright &copy; 2019<br> Designed and posted by Younhong Ko, 21400022.<br>All Rights are Reserved by Younhong.<br>All content and graphics on this web site are the
+				property of Younhong Corporation.</p>      
+				<p>Contact information:<br>
+				Location: Handong Global University, 558, Handong-ro, Heunghae-eup, Buk-gu, Pohang-si, Gyeongsangbuk-do, Republic of Korea<br>
+				Phone #: 010-****-0874<br>
+				Available at Weekends 3PM ~ 7PM<br>
+				<a href="mailto: 21400022@handong.edu">21400022@handong.edu</a><br>
+				<a href="mailto: younhong@kakao.com">younhong@kakao.com</a>
+				</p>
+			</footer>
 	</body>
 </html>
