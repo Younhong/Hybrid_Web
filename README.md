@@ -3,7 +3,6 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
 
 # Techniques used
 * Basic skills on using HTML, CSS, PHP, mySQL and Javascript
-* Semantic Tags
 * JQuery
 * NodeJS
 * Bootstrap
