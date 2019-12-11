@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/css" href = "curriculum.css"?>
+<Computer_Engineer_Course>
+  <Course>
+    <name>Physics</name>
+    <year>1st Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Data Analysis with R</name>
+    <year>1st Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Physics Experiment</name>
+    <year>1st Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Calculus 2</name>
+    <year>1st Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Python Programming</name>
+    <year>1st Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Computer Engineering Introduction</name>
+    <year>1st Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>C Programming</name>
+    <year>1st Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>C Programming Practice</name>
+    <year>1st Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Engineering Design Introduction</name>
+    <year>1st Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Statistics</name>
+    <year>1st Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Java Programming</name>
+    <year>2nd Year</year>
+    <prerequisite>Prerequisite: C Programming</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Logic Design</name>
+    <year>2nd Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Circuit Theory 1</name>
+    <year>2nd Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>  <Course>
+    <name>Basic Electrical Engineering Experiment</name>
+    <year>2nd Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Data Structure</name>
+    <year>2nd Year</year>
+    <prerequisite>Prerequisite: C Programming</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Open Source Software</name>
+    <year>2nd Year</year>
+    <prerequisite>Prerequisite: C Programming, Java Programming, Data Structure</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Computer Architecture and Organization</name>
+    <year>2nd Year</year>
+    <prerequisite>Prerequisite: Logic Design</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Discrete Mathematics</name>
+    <year>2nd Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Digital System Design</name>
+    <year>2nd Year</year>
+    <prerequisite>Prerequisite: Logic Design</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Web Service Development</name>
+    <year>2nd Year</year>
+    <prerequisite>Prerequisite: Java Programming</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Computer Vision</name>
+    <year>2nd Year</year>
+    <prerequisite>Prerequisite: Data Structure</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Practical Project 1</name>
+    <year>2nd Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Practical Project 2</name>
+    <year>3nd Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Database System</name>
+    <year>3rd Year</year>
+    <prerequisite>Prerequisite: Discrete Mathematics</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Electric Circuit 1</name>
+    <year>3rd Year</year>
+    <prerequisite>Prerequisite: Circuit Theory 1</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Embedded Processor Application</name>
+    <year>3rd Year</year>
+    <prerequisite>Prerequisite: C Programming, Logic Design, Computer Architecture and Organization</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Operating System</name>
+    <year>3rd Year</year>
+    <prerequisite>Prerequisite: C Programming</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Object-Oriented Design Pattern</name>
+    <year>3rd Year</year>
+    <prerequisite>Prerequisite: Java Programming</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Algorithm Analysis</name>
+    <year>3rd Year</year>
+    <prerequisite>Prerequisite: Data Structure</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Differential Equations</name>
+    <year>3rd Year</year>
+    <prerequisite>Prerequisite: Calculus 2</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Programming Language Theory</name>
+    <year>3rd Year</year>
+    <prerequisite>Prerequisite: Java Programming</prerequisite>
+    <semester>Fall Semester</semester> 
+  </Course>
+  <Course>
+    <name>Mobile App Development</name>
+    <year>3rd Year</year>
+    <prerequisite>Prerequisite: Java Programming</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>IoT System Design</name>
+    <year>3rd Year</year>
+    <prerequisite>Prerequisite: C Programming, Python, Embedded Processor Application</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Computer Network</name>
+    <year>3rd Year</year>
+    <prerequisite>Prerequisite: C Programming</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Engineering Project Design</name>
+    <year>3rd Year</year>
+    <prerequisite>Prerequisite: Engineering Design Introductionm, Operating System, Data Structure</prerequisite>
+    <semester>Spring Semester, Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Problem Solving through Computational Thinking</name>
+    <year>3rd Year</year>
+    <prerequisite>Prerequisite: C Programming, Data Structure, Algorithm Analysis</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Software Engineering</name>
+    <year>4th Year</year>
+    <prerequisite>Prerequisite: Java Programming</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Linear Algebra</name>
+    <year>4th Year</year>
+    <prerequisite>Prerequisite: Java Programming</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Capstone Design</name>
+    <year>4th Year</year>
+    <prerequisite>Prerequisite: Engineering Project Design</prerequisite>
+    <semester>Spring Semester, Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Compiler Theory</name>
+    <year>4th Year</year>
+    <prerequisite>Prerequisite: Java Programming, C Programming, Data Structure</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Computer Graphics</name>
+    <year>4th Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Spring Semester</semester>
+  </Course>
+  <Course>
+    <name>Computer Security</name>
+    <year>4th Year</year>
+    <prerequisite>Prerequisite: None</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+  <Course>
+    <name>Machine Learning</name>
+    <year>4th Year</year>
+    <prerequisite>Prerequisite: Data Structure, Calculus 2, Linear Algebra, Statistics</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course> 
+  <Course>
+    <name>Integrated Circuit Design</name>
+    <year>4th Year</year>
+    <prerequisite>Prerequisite: Logic Design, Circuit Theory 1</prerequisite>
+    <semester>Fall Semester</semester>
+  </Course>
+</Computer_Engineer_Course>

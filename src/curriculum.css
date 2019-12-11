@@ -1,0 +1,89 @@
+Computer_Engineer_Course {
+    background-color: dodgerblue;
+    width: 100%;
+    animation: myMove 5s infinite;
+    animation-direction: alternate;
+}
+@keyframes myMove {
+    from {background-color: dodgerblue;}
+    to {background-color: skyblue;}
+}
+Course {
+    display: block;
+    background-color: slateblue;
+    margin-bottom: 20pt;
+    margin-left: 0;
+    height: 200px;
+}
+name {
+    text-align: center;
+    display: block;
+    color: orange;
+    font-size: 30pt;
+    text-shadow: 3px 8px 5px violet; 
+    transform: skewX(-30deg);
+    position:relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 10s infinite;
+    animation-direction: alternate;
+}
+@-webkit-keyframes mymove {
+    0% {left: 0px;}
+    25% {left: 200px;}
+    50% {right: 200px;}
+    75% {right:200px;}
+    100% {left: 200px;}
+}
+@keyframes mymove {
+    0% {left: 0px;}
+    25% {left: 200px;}
+    50% {left: 0px;}
+    75% {left: -200px;}
+    100% {left: 0px;}
+}
+year {
+    display: block;
+    color: tomato;
+    font-size: 40pt;
+    text-align: right;
+    transform: skewY(-3deg);
+}
+prerequisite {
+    width: 400px;
+    height: 50px;
+    background: yellow;
+    display: block;
+    color: #000000;
+    margin-left: 20pt;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transform: scale(1,1.5);
+    transition: width 2s;
+    float: left;
+}
+prerequisite:hover {
+    width: 800px;
+    height: 100px; 
+    font-size: 30pt;
+    background-color: orange;
+    color: red;
+}
+semester {
+    width: 400px;
+    height: 50px;
+    display: block; color: violet;
+    margin-left: 20pt; 
+    background: mediumseagreen;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+    float: right;
+    font-size: 20pt;
+    transform: translate(-20px, -50px);
+}
+semester:hover {
+    width: 800px;
+    height: 100px; 
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    font-size: 30pt;
+    background-color: lightgreen;
+}
