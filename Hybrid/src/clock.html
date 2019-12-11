@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Electronic Clock</title>
+        <style>
+            body {
+                background-color: bisque;
+                color: salmon;
+            }
+        </style>
+    </head>
+    <html>
+        <h1 id="clock"></h1>
+        <script>
+            var currentTime = document.getElementById('clock');
+            var tick =  function() {
+                var now = new Date();
+                var day = ['일', '월', '화', '수', '목', '금', '토'];
+                var dateTime = now.getFullYear() + '년 ' +
+                (now.getMonth()+1) + '월 ' + now.getDate() + '일 ' +
+                day[now.getDay()] + '요일 ' + now.getHours() + '시' + now.getMinutes() + '분'
+                + now.getSeconds() + '초';
+                currentTime.innerText = dateTime; 
+            }
+            setInterval(tick, 1000);            
+        </script>
+    </html>
+</html>

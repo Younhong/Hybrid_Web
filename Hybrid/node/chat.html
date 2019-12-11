@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>채팅</title>
+        <style>
+            #messages {
+                width: 500px;
+                height: 300px;
+                overfow-y: scroll;
+                color: blue;
+            }
+            body {
+                background-color: bisque;
+            }
+            button {
+                color: red;
+            }
+            span {
+                color: red;
+            }
+            h1 {
+                color: salmon;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Chat Room</h1>
+        <div>
+            Name <input type="text" id="txtSender">
+        </div>
+        <div id="messages"></div>
+        <div>
+            <input type="text" id="txtMessage">
+            <button id="btnSend">Send</button>
+        </div>
+        <script>
+            var curIndex = 0;
+            var messages = $("#messages");
+            var txtSender = $("#txtSender");
+            var txtMessage = $("#txtMessage");
+            $().ready(function() {
+                setInterval(function() {
+                    $.getJSON("http://54.180.91.79:3000/receive", {from: curIndex}, function(data) {
+                        $.each(data.messages, function(index, message) {
+                            messages.append("<span>" + message.sender + "</span>: " + message.message + "");
+                            messages.append("<br />");
+                        }),
+                        curIndex = data.total;
+                    });
+                },1000);
+            });
+
+            $("#btnSend").click(function() {
+                if (txtSender.val() == "") {
+                    alert("Enter your name");
+                } else if (txtMessage.val() != "") {
+                    $.getJSON("http://54.180.91.79:3000/send", {sender: txtSender.val(), message: txtMessage.val() });
+                    txtMessage.val("");
+                }
+            });
+        </script>
+    </body>
+</html>

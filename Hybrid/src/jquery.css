@@ -1,0 +1,17 @@
+.font-weight-bold {
+    font-weight: bold;
+}
+.heading {
+    color: red;
+    font-weight: bold;
+}
+img {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+}
+body {
+    background-color: bisque;
+}

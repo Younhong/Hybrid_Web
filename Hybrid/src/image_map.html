@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Image Mapping</title>
+		<style>
+			body {
+				color: tomato;
+				background-color: bisque;
+			}
+			em {
+				color: mediumslateblue;
+				background-color: yellow;
+				font-weight: bold;
+			}
+			p {
+				font-size: 17px;
+				margin-left: 7px;
+			}
+		</style>
+	</head>
+	<body>
+		<img src = "../image/puppy.jpg" usemap="#imagemap" width="900" height="600">
+		<map name="imagemap">
+			<area shape="poly" coords="260,120 300,250 550,250 400,100" href="https://www.youtube.com/embed/L05QZaJWspc">
+			<area shape="circle" coords="490,340 105" href="https://www.youtube.com/embed/nDiJRNvhxWI">
+			<area shape="rect" coords="270,0 360,100" href="https://www.youtube.com/embed/qlpGP6cMaRw">
+			<area shape="rect" coords="380,445 620,560" href="https://www.youtube.com/embed/ni4acxWHvl8">
+		</map>
+		<br>
+		<p>
+		Image Map은 위의 이미지 안에 총 <em>4군데</em>에 구현되어 있습니다.<br>
+		강아지를 만져보세요. <br>
+		여기저기 건들다 보면 어디를 건드리는지에 따라 <em>4개의 서로 다른 링크</em>로 이동합니다.<br>
+		(참고로 배경에는 아무것도 없습니다)
+		</p>
+	</body>
+</html>

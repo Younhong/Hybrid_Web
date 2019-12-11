@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>사칙연산</title>
+        <style>
+            body {
+                background-color: bisque;
+            }
+            button {
+                color: red;
+            }
+            h1{
+                color: salmon;
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>사칙연산 페이지입니다.</h1>
+        <div>
+            <input type="text" id="a" />
+            <button class="calc" value="+">+</button>
+            <button class="calc" value="-">-</button>
+            <button class="calc" value="*">*</button>
+            <button class="calc" value="/">/</button>
+            <input type="text" id="b" />
+            =<span id="result"></span>
+        </div>
+        <script>
+            $().ready(function() {
+                $(".calc").click(function() {
+                    var func;
+                    switch ($(this).attr('value')) {
+                        case '+': 
+                            func = 'plus';
+                            break;
+                        case '-': 
+                            func='minus'; 
+                            break;
+                        case '*':
+                            func='mult';
+                            break;
+                        case '/':
+                            func='div';
+                            break;
+                    }
+                    $.getJSON("http://54.180.91.79:3000/" + func + "/" + $("#a").val() + "/" + $("#b").val(), function(data) {
+                        $("#result").text(data);
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

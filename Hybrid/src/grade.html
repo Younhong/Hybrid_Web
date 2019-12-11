@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Grade</title>
+        <style>
+            body {
+                background-color: bisque;
+                color: salmon;
+            }
+        </style>
+    </head>
+    <html>
+        <h1 id="grade"></h1>
+        <script>
+            var grade = prompt('Enter Grade');
+            var calculated;
+            if (grade >= 90)
+                calculated = 'A';
+            else if (grade >= 80)
+                calculated = 'B';
+            else if (grade >= 70)
+                calculated = 'C';
+            else if (grade >= 60)
+                calculated = 'D';
+            else
+                calculated = 'F';
+            document.getElementById("grade").innerHTML = "You got " + calculated;
+        </script>
+    </html>
+</html>

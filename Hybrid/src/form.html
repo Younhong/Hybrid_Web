@@ -1,0 +1,93 @@
+
+<html>
+	<head>
+		<title>설문조사 페이지</title>
+		<style>
+			body{
+				background-color: bisque;
+				color: tomato;
+				font-weight: bold;
+			}
+			p {
+				color: salmon;
+				font-size: 17px;
+			}
+			p.a {
+				color: tomato;
+				font-size: 20px;
+			}
+		</style>
+
+	</head>
+	<body>
+		<p class="a">설문조사 페이지입니다.</p>
+		<form method=post action="mailto:21400022@handong.edu" enctype= "text/plain">
+
+			<p>1. 이름을 입력해주세요.<br>
+			<input type=text name="name"></p>
+
+			<p>2. 본인의 신분을 선택해주세요.
+			<br>
+			<select name="Identity">
+			<option value="Student">학생
+			<option value="Professor">교수
+			<option value="Faculty">기타 교직원
+			</select>
+			</p>
+
+			<p>3. (학생일 경우) 학번을 입력해 주세요.
+			<br>
+			<input type=text name="Student ID">
+			</p>
+
+			<p>4. 소속된 학부를 선택해주세요.
+			<br>
+			<input type="radio" name="Major" value="GLS" checked>글로벌리더십학부
+			<input type="radio" name="Major" value="Law">법학부
+			<input type="radio" name="Major" value="Economy">경영경제학부
+			<input type="radio" name="Major" value="Machine">기계제어공학부
+			<input type="radio" name="Major" value="CSEE">전산전자공학부
+			<input type="radio" name="Major" value="LifeScience">생명과학부<br>
+			<input type="radio" name="Major" value="EnvSystem">공간환경시스템공학부
+			<input type="radio" name="Major" value="IntLang">국제어문학부
+			<input type="radio" name="Major" value="Media">언론정보문화학부
+			<input type="radio" name="Major" value="Psychology">상담심리사회복지학부<br>
+			<input type="radio" name="Major" value="ContentsDesign">콘텐츠융합디자인학부
+			<input type="radio" name="Major" value="ICT">ICT창업학부
+			</p>
+
+			<p>5. 다음 중 접해본 프로그래밍 언어를 선택해주세요.(중복 선택 가능)<br>
+			<input type="checkbox" name="C" value="Learned" checked>C
+			<input type="checkbox" name="Java" value="Learned" checked>Java
+			<input type="checkbox" name="Python" value="Learned" checked>Python
+			<input type="checkbox" name="C++" value="Learned">C++
+			<input type="checkbox" name="Javascript" value="Learned">Javascript
+			<input type="checkbox" name="Typescript" value="Learned">Typescript
+			<input type="checkbox" name="C#" value="Learned">C#
+			<input type="checkbox" name="Objective C" value="Learned">Objective C
+			<input type="checkbox" name="PHP" value="Learned">PHP
+			<input type="checkbox" name="R" value="Learned">R
+			<input type="checkbox" name="Racket" value="Learned">Racket
+			<input type="checkbox" name="Go" value="Learned">Go<br>
+			<input type="checkbox" name="Kotlin" value="Learned">Kotlin
+			<input type="checkbox" name="Swift" value="Learned">Swift
+			<input type="checkbox" name="Dart" value="Learned">Dart
+			<input type="checkbox" name="SQL" value="Learned">SQL
+			<input type="checkbox" name="Scratch" value="Learned">Scratch
+			<input type="checkbox" name="Matlab" value="Learned">Matlab
+			<input type="checkbox" name="Assembly" value="Learned">Assembly Language
+			<input type="checkbox" name="Ruby" value="Learned">Ruby
+			<input type="checkbox" name="Perl" value="Learned">Perl
+			<input type="checkbox" name="VB" value="Learned">Visual Basic
+			</p>
+
+			<p>6. 설문 조사 관련해서 하고 싶은 말이나 의견 있으면 남겨주시기를 바랍니다.
+			<br>
+			<textarea name="Opinion" rows=10 cols=30></textarea>
+			</p>
+
+			<input type="reset" value="back">
+			<input type="submit" value="confirm">
+		<form>
+	</body>
+</html>
