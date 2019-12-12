@@ -18,8 +18,18 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
 # Structure of Web Page
 > Web Page is desgined with using Semantic tags such as header, main and footer.
 
+# Contents
+* Wix.com, WordPress Page
+* Chatting Page, Chatting Page with the translation function
+* Server time with the number of visitor
+* Todo List Management
+* Book Management - not connected with library
+* Open API
+* Wild Animals Community
+* And more
+
 # Before Executing Program, Please Read this part. Very Important!!
-* If you move on to main page of website, you will see many links. But not all links are accessible if you are first time here. There is a link with the senetence "Wild Life". This page may not be accessible to you, since this page designed with PHP and mySQL. To make access to this page, follow this steps.
+* If you move on to main page of website, you will see many links. But not all links are accessible if you are first time here. There is a link with the title "Wild Life". This page may not be accessible to you, since this page designed with PHP and mySQL. To make access to this page, follow this steps.
   1. Install XAMPP
   2. Open xampp control panel with administrator mode
   3. Activate Apache Server and MySQL
@@ -31,4 +41,4 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
   2. Open createDB.php, createTable.php and createTable.php
 
 # Link
-http://54.180.91.79/
+* http://54.180.91.79/
