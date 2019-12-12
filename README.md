@@ -19,7 +19,16 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
 > Web Page is desgined with using Semantic tags such as header, main and footer.
 
 # Before Executing Program, Please Read this part. Very Important!!
-> If you move on to main page, you will see link with the line "Wild Life". This link will lead you to page that is different from others. This page is executed with apache server with localhost port 81. So if you need to test the code there, please install XAMPP and set the apache server port number to 81. Don't forget to activate Apache Server and mySQL database. Then, find a htdocs folders in XAMPP directory. If you found it, put Web directory which I have posted inside it. Then, you will need to execute the code createDB.php, createTable.php, createTable2.php before you execute the program, since what you entered in page will store the data made with the php files mentioned above.
+* If you move on to main page of website, you will see many links. But not all links are accessible if you are first time here. There is a link with the senetence "Wild Life". This page may not be accessible to you, since this page designed with PHP and mySQL. To make access to this page, follow this steps.
+1. Install XAMPP
+2. Open xampp control panel with administrator mode
+3. Activate Apache Server and MySQL
+4. Set the port number of apache server to 81
+5. Copy the directory 'web', and locate it inside htdocs folder which is located inside directory where xampp has been installed
+
+* To test database system as well, follow additional steps.
+1. Move on to http://localhost:81/web
+2. Open createDB.php, createTable.php and createTable.php
 
 # Link
 http://54.180.91.79/
