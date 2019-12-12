@@ -9,12 +9,24 @@ app.get("/public/:a", function (req, rep) {
 });
 
 app.use(express.json());
-app.use(express.static('public'));
+app.use(express.static("public"));
 app.use('/router', router);
 app.use('/books', booksRouter);
 
 app.get("/", function(req, rep) {
     rep.end("Hello world! GET: " + req.url);
+});
+
+var todos = {};
+
+app.post("/todos", function (req, res) {
+    todos = req.body.todos;
+    console.log(req.body);
+    res.status(200).send({ message: "success" });
+});
+
+app.get("/todos", function (req, res) {
+    res.status(200).send(todos);
 });
 
 app.get("/plus/:a/:b", function (req, rep) {
