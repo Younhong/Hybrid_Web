@@ -8,8 +8,8 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
 * Bootstrap
 * AJAX
 * WordPress, Wix.com
-* OpenAPI (omdbapi, Handong Service menu)
-* Docker (for setting WordPress)
+* OpenAPI (omdbapi, Handong Service menu, Naver Papago API)
+* Docker
 
 # Language Used
 * Markup Language - XML, HTML
@@ -25,7 +25,7 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
 
 # Contents
 * Wix.com, WordPress Page
-* Chatting Page, Chatting Page with the translation function
+* Chatting Page(with/without translation function)
 * Server time with the number of visitor
 * Todo List Management
 * Book Management - not connected with library
@@ -46,7 +46,7 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
   2. Open createDB.php, createTable.php and createTable.php
 
 # Website
-* [http://54.180.91.79/]
+* http://54.180.91.79/
 
 # Demonstration Video
-* [https://youtu.be/_f8KHUksqA8]
+* https://youtu.be/_f8KHUksqA8
