@@ -2,7 +2,7 @@
 Website oiriginally designed for the asssignment of Hybrid Web Course, but I have expanded the function and the design of the website using the techniques I learned from Web Service Development.
 
 # Techniques used
-* Basic skills on using XML, HTML, CSS, PHP, mySQL and Javascript
+* CSS
 * JQuery
 * NodeJS
 * Bootstrap
@@ -10,6 +10,11 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
 * WordPress, Wix.com
 * OpenAPI (omdbapi, Handong Service menu)
 * Docker (for setting WordPress)
+
+# Language Used
+* Markup Language - XML, HTML
+* Javascript
+* PHP
 
 # Server
 * AWS(Amazon Web service)
@@ -40,8 +45,8 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
   1. Move on to http://localhost:81/web
   2. Open createDB.php, createTable.php and createTable.php
 
-# Link
+# Website
 * [http://54.180.91.79/]
 
-# Demonstration Video Link
+# Demonstration Video
 * [https://youtu.be/_f8KHUksqA8]
