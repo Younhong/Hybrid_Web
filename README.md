@@ -41,7 +41,7 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
   2. Open createDB.php, createTable.php and createTable.php
 
 # WebPage Link
-* http://54.180.91.79/
+* [http://54.180.91.79/]
 
 # Demonstration Video Link
-* https://youtu.be/_f8KHUksqA8 
+* [https://youtu.be/_f8KHUksqA8]
