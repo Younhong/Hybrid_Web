@@ -35,7 +35,7 @@ header {
 	height: 120px;
 	background-color: lightgray;
 }
-div.menu, div.menu2, div.menu3, div.menu4 {
+div.menu, div.menu2, div.menu3, div.menu4, div.menu5 {
 	margin-top: 20px;
 	float:left;
 	font-weight: bold;
@@ -44,10 +44,10 @@ div.menu, div.menu2, div.menu3, div.menu4 {
 	text-align: center;
 	width: 20em;
 }
-div.menu:hover a, div.menu2:hover a, div.menu3:hover a, div.menu4:hover a {
+div.menu:hover a, div.menu2:hover a, div.menu3:hover a, div.menu4:hover a, div.menu5:hover a {
 	display: block;
 }
-div.menu a, div.menu2 a, div.menu3 a, div.menu4 a {
+div.menu a, div.menu2 a, div.menu3 a, div.menu4 a, div.menu5 a {
 	display: none;
 	border-top: 2px solid red;
 	background-color: pink;
@@ -55,7 +55,7 @@ div.menu a, div.menu2 a, div.menu3 a, div.menu4 a {
 	text-decoration: none;
 	color: black;
 }
-div.menu a:hover, div.menu2 a:hover, div.menu3 a:hover, div.menu4 a:hover  { 
+div.menu a:hover, div.menu2 a:hover, div.menu3 a:hover, div.menu4 a:hover, div.menu5 a:hover { 
 	background-color: yellow;
 }
 main {
