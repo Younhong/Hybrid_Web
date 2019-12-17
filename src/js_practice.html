@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Javascript</title>
+        <style>
+            body {
+                overflow: auto;
+                background-color: bisque;
+            }
+            table {
+                border-collapse: collapse;
+                width: 25%;
+            }
+            td {
+                text-align: center;
+            }
+            th, td {
+                padding: 7px 0px 7px 0px;
+            }
+            th {
+                background-color: lightgrey;
+            }
+            td.active {
+                background-color: yellowgreen;
+            }
+            td:hover:not(.active) {
+                background-color: red;
+            }
+            caption {
+                margin-bottom: 5px;
+                font-size: 20px;
+            }
+            button {
+                color: blue;
+                background-color: lightgrey;
+            }
+            #content {
+                background-color: bisque;
+                font-size: 20px;
+                font-weight: bold;
+                width: 700px;
+                padding: 5px;
+            }
+            ul {
+                list-style-type: square;
+            }
+            li {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="content"></p>
+        <h2>Welcome To Javascript World</h2>
+        <p id="coupon">쿠폰번호: 777777</p>
+        <button id="button">클릭</button>
+        <p id="count">0회 클릭</p>
+        <ul>
+            <li>컴퓨터 전공자들에게 꼭 필요한 아이템</li>
+            <ol type="I", id="list"></ol>
+        </ul>
+        <table border=1 id="programList"></table>   
+            
+        <script>                
+            var name = prompt('Enter name');
+            alert(name + '님 반갑습니다');
+            
+            var time = new Date().getHours();
+            if (time < 6)
+                document.getElementById("content").innerHTML = "Good Night!! " + name + "!!";
+            else if (time < 12)
+                document.getElementById("content").innerHTML = "Good Morning!! " + name + "!!";
+            else if (time < 18)
+                document.getElementById("content").innerHTML = "Good Afternoon!! " + name + "!!";
+            else
+                document.getElementById("content").innerHTML = "Good Evening!! " + name + "!!";
+            
+            var element2 = document.getElementById('coupon');
+            setTimeout(function() {element2.innerText = 'Deleted'}, 7000);
+            
+            var button = document.getElementById('button');
+            var element3 = document.getElementById('count');
+            var count = 0;
+            button.addEventListener('click', function() {
+                count++; element3.innerText = count +'회 클릭';
+            });
+                
+            var list = document.getElementById('list');
+            var products = ['데스크탑', '노트북', '모니터', '키보드', '마우스', '고양이'];
+            var html = '';
+            for (var product of products)
+                html += '<li>' + product + '</li>';
+            list.innerHTML = html;
+
+            var languages = ['C', 'C++', 'C#', 'Object-C', 'Java', 'Python', 'Javascript', 'PHP', 'Kotlin', 'Swift', 'Dart', 'Ruby', 'Perl', 'Typescript', 'R',
+            'Matlab', 'Scratch', 'Assembly Language', 'Go', 'JSP', 'Visual Basic'];
+            var programmingLanguages = document.getElementById('programList');
+            var table = '<caption>' + '<strong>' + 'Life of Coding in Programming World' + '</strong>' + '</caption>' + 
+                '<tr>'+'<th style="width: 20%">'+'Number'+'</th>'+'<th>'+'Programming Language'+ '</th>'+'</tr>';
+            for (var i=0; i<languages.length; i++)
+                table += '<tr>' + '<td class="active">' + (i + 1) + '</td>' + '<td>' + languages[i] + '</td>' + '</tr>';
+            programmingLanguages.innerHTML = table;
+        </script>
+    </body>
+</html>

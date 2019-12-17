@@ -79,9 +79,6 @@ footer a{
 div {
 	background-color: orange;
 }
-.active {
-	background-color: darkorange;
-}
-div:hover:not(.active) {
+div:hover {
 	background-color: white;
 }
