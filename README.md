@@ -47,6 +47,7 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
 
 # Website
 * http://54.180.91.79/
+-> Currently disabled.
 
 # Demonstration Video
 * https://youtu.be/_f8KHUksqA8
