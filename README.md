@@ -24,9 +24,10 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
 > Web Page is desgined with using Semantic tags such as header, main and footer.
 
 # Contents
-* Wix.com, WordPress Page
-* Chatting Page(with/without translation function)
-* Server time with the number of visitor
+* Wix.com
+* WordPress Page
+* Chatting Page
+* Server time & visitor
 * Todo List Management
 * Book Management - not connected with library
 * Open API
@@ -48,6 +49,10 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
 # Website
 * http://54.180.91.79/
 -> Currently disabled.
+
+# For the test, use your own ip.
+* Currently, ip address has been disabled
+* For the test, clone this repository and change all ip address to yours.
 
 # Demonstration Video
 * https://youtu.be/_f8KHUksqA8
