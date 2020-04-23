@@ -53,6 +53,3 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
 # For the test, use your own ip.
 * Currently, ip address has been disabled
 * For the test, clone this repository and change all ip address to yours.
-
-# Demonstration Video
-* https://youtu.be/_f8KHUksqA8
