@@ -7,7 +7,8 @@ Website oiriginally designed for the asssignment of Hybrid Web Course, but I hav
 * NodeJS
 * Bootstrap
 * AJAX
-* WordPress, Wix.com
+* WordPress
+* Wix.com
 * OpenAPI (omdbapi, Handong Service menu, Naver Papago API)
 * Docker
 
