@@ -1,5 +1,5 @@
 # Younhong's Personal Website
-Website oiriginally designed for the asssignment of Hybrid Web Course.
+Website designed for the asssignment of Hybrid Web Course.
 
 # Techniques used
 * CSS
